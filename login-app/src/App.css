@@ -1,0 +1,59 @@
+
+.navBar {
+  width: 100vw;
+  background-color: rgb(5, 118, 162);
+  color: white;
+  font-size: 24px;
+  padding: 5px;
+}
+
+nav ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+}
+
+nav ul li {
+  list-style-type: none;
+  margin-right: 1em;
+}
+
+nav ul li:hover {
+  color: rgba(0, 0, 0, 0.705)
+}
+
+nav ul li:active {
+  background-color: rgb(103, 8, 247);
+}
+
+.welcomeSection {
+  text-align: center;
+  background-color: #64c3f0;
+  padding: 1em;
+  justify-content: center;
+}
+
+.header {
+  border-style: double;
+  border-color: azure;
+}
+
+form {
+  border-style: double;
+  border-color: azure;
+}
+
+button {
+  background-color:#013374;
+  color: #fff;
+  border:none; 
+  border-radius:5px; 
+  margin:10px;
+  min-height:30px; 
+  min-width: 90px;
+}
+
+button:hover {
+  background-color:#002ead;
+  transition: 0.7s;
+}
